@@ -1,6 +1,8 @@
 /**
  * Tu as la classe suivante qui gère à la fois les informations d'un employé et son calcul de salaire.
  * Refactorise-la en suivant SRP (Single Responsibility Principle).
+ *
+ * ✅ Objectif : Sépare les responsabilités en plusieurs classes.
  * */
 class Employee {
     private String name;

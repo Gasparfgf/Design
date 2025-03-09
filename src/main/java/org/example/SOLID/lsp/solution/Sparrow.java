@@ -1,6 +1,6 @@
 package org.example.SOLID.lsp.solution;
 
-public class Sparrow extends Animal {
+public class Sparrow extends Animal implements Flyable {
     private String name;
 
     public Sparrow(String name) {
@@ -12,6 +12,7 @@ public class Sparrow extends Animal {
         System.out.println(name + " walking...");
     }
 
+    @Override
     public void fly() {
         System.out.println("L'oiseau " + name + " vole !");
     }

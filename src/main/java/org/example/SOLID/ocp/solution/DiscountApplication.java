@@ -7,7 +7,7 @@ public class DiscountApplication {
         this.discount = discount;
     }
 
-    public double calculateDiscount() {
-        return discount.calculate();
+    public double applyDiscount(double amount) {
+        return discount.calculate(amount);
     }
 }

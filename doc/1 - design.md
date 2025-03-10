@@ -2,7 +2,7 @@
 
 La conception logicielle est l’ensemble des techniques et méthodologies utilisées pour concevoir une architecture logicielle robuste, évolutive et maintenable. C’est une étape clé du cycle de vie du développement logiciel, qui intervient après l’analyse des besoins et avant l’implémentation.
 
-## La Qualité d'un Logiciel
+## 🔍 La Qualité d'un Logiciel
 
 🎯 Un <u>logiciel de qualité</u> doit respecter plusieurs critères :
 
@@ -46,7 +46,7 @@ Il existe plusieurs approches de conception logicielle, selon le type et l’obj
 
 **ATT :** Choisir la bonne approche dépend du projet et de ses exigences.
 
-## Couplage
+## 🔍 Couplage
 
 Le couplage représente le degré de dépendance entre deux composants d'un logiciel.
 <br>Un fort couplage signifie que les composants sont très liés entre eux, ce qui rend le code difficile à modifier.

@@ -1,7 +1,7 @@
-# SOLID
+# Qualité Logiciel - SOLID
 Le principe SOLID est un ensemble de cinq principes fondamentaux de conception logicielle qui facilitent la maintenance, l'extensibilité et la compréhension du code.
 
-## S - Single Responsibility Principle (SRP) / Principe de Responsabilité Unique
+## 🔍 S - Single Responsibility Principle (SRP) / Principe de Responsabilité Unique
 👉 Une classe ne doit avoir qu'une seule responsabilité, c'est-à-dire une seule raison de changer.
 
 ✅ Cela améliore la modularité et réduit le couplage.
@@ -38,7 +38,7 @@ class ReportPrinter {
 ```
 📌 Pourquoi ? Chaque classe a une seule responsabilité : Report génère le rapport, ReportPrinter gère l'impression.
 
-## O - Open/Closed Principle (OCP) / Principe Ouvert/Fermé
+## 🔍 O - Open/Closed Principle (OCP) / Principe Ouvert/Fermé
 👉 Une entité (classe, module, fonction) doit être ouverte à l'extension mais fermée à la modification.
 
 ✅ On peut ajouter de nouvelles fonctionnalités sans modifier le code existant, par exemple avec l'héritage ou le polymorphisme.
@@ -85,7 +85,7 @@ class PaymentProcessor {
 ```
 📌 Pourquoi ? On peut ajouter un nouveau mode de paiement sans modifier le code existant.
 
-## L - Liskov Substitution Principle (LSP) / Principe de Substitution de Liskov
+## 🔍 L - Liskov Substitution Principle (LSP) / Principe de Substitution de Liskov
 👉 Une classe dérivée doit pouvoir être utilisée comme substitut de sa classe parente sans altérer le comportement du programme.
 
 ✅ Cela garantit que l’héritage ne brise pas les fonctionnalités attendues.
@@ -150,7 +150,7 @@ class Square implements Shape {
 ```
 📌 Pourquoi ? Rectangle et Square implémentent Shape sans casser le comportement.
 
-## I - Interface Segregation Principle (ISP) / Principe de Ségrégation des Interfaces
+## 🔍 I - Interface Segregation Principle (ISP) / Principe de Ségrégation des Interfaces
 👉 Une classe ne doit pas être forcée d’implémenter des interfaces qu’elle n’utilise pas.
 
 ✅ Il vaut mieux créer plusieurs interfaces spécifiques plutôt qu'une seule interface massive.
@@ -206,7 +206,7 @@ class OfficeWorker implements Workable, Eatable {
 ```
 📌 Pourquoi ? Chaque classe n’implémente que les interfaces dont elle a besoin.
 
-## D - Dependency Inversion Principle (DIP) / Principe d'Inversion des Dépendances
+## 🔍 D - Dependency Inversion Principle (DIP) / Principe d'Inversion des Dépendances
 👉 Les modules de haut niveau ne doivent pas dépendre des modules de bas niveau, mais tous doivent dépendre d’abstractions (interfaces).
 
 ✅ Cela permet de découpler les composants et de faciliter la maintenance.

@@ -6,7 +6,7 @@ Le principe SOLID est un ensemble de cinq principes fondamentaux de conception l
 
 ✅ Cela améliore la modularité et réduit le couplage.
 
-**Exemple :**
+💡 **Exemple :**
 
 ❌ **Mauvaise pratique :** Une classe fait trop de choses (gère les données et l'affichage)
 ```java
@@ -43,7 +43,7 @@ class ReportPrinter {
 
 ✅ On peut ajouter de nouvelles fonctionnalités sans modifier le code existant, par exemple avec l'héritage ou le polymorphisme.
 
-**Exemple :**
+💡 **Exemple :**
 
 ❌ **Mauvaise pratique :** On modifie la classe existante pour ajouter un nouveau type de paiement
 ```java
@@ -90,7 +90,7 @@ class PaymentProcessor {
 
 ✅ Cela garantit que l’héritage ne brise pas les fonctionnalités attendues.
 
-**Exemple :**
+💡 **Exemple :**
 
 ❌ **Mauvaise pratique :** Une sous-classe change le comportement de la classe mère
 ```java
@@ -155,7 +155,7 @@ class Square implements Shape {
 
 ✅ Il vaut mieux créer plusieurs interfaces spécifiques plutôt qu'une seule interface massive.
 
-**Exemple :**
+💡 **Exemple :**
 
 ❌ **Mauvaise pratique :** Une interface trop large
 ```java

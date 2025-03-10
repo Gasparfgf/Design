@@ -44,7 +44,7 @@ Il existe plusieurs approches de conception logicielle, selon le type et l’obj
 
 **Exemple :** Netflix utilise une architecture microservices.
 
-**ATT :** Choisir la bonne approche dépend du projet et de ses exigences.
+**À retenir :** Choisir la bonne approche dépend du projet et de ses exigences.
 
 ## 🔍 Couplage
 
@@ -57,7 +57,7 @@ Le couplage représente le degré de dépendance entre deux composants d'un logi
 - Les classes dépendent trop les unes des autres.
 - Difficile à modifier : un changement dans une classe peut impacter plusieurs autres.
 
-**❌ Exemple mauvais :**
+**❌ 💡 Exemple mauvais :**
 ```java
 class Order {
     private Payment payment;
@@ -84,7 +84,7 @@ class Payment {
 - Les classes sont indépendantes et interagissent via des interfaces ou l’injection de dépendances.
 - Facile à modifier et à tester.
 
-**✅ Exemple bon :**
+**✅ 💡 Exemple bon :**
 ```java
 interface Payment {
     void process();

@@ -9,7 +9,7 @@ Elle permet de modéliser un système en fonction des objets du monde réel et d
 
 👉 Un objet est une instance d’une classe, c’est-à-dire un élément concret basé sur ce modèle.
 
-**Exemple :**
+💡 **Exemple :**
 ```java
 class Voiture {
     String marque;
@@ -35,7 +35,7 @@ public class Main {
 
 👉 Cacher les détails complexes et ne montrer que les fonctionnalités essentielles.
 
-**Exemple :** Un utilisateur utilise une voiture sans connaître le fonctionnement interne du moteur.
+💡 **Exemple :** Un utilisateur utilise une voiture sans connaître le fonctionnement interne du moteur.
 
 Les classes abstraites et interfaces permettent d’implémenter l’abstraction.
 ```java
@@ -54,7 +54,7 @@ class Chien extends Animal {
 ### Encapsulation
 👉 Cacher les données et contrôler leur accès via des getters et setters.
 
-**Exemple :** On ne peut pas modifier directement la vitesse d'une voiture, mais on peut l’accélérer avec une méthode.
+💡 **Exemple :** On ne peut pas modifier directement la vitesse d'une voiture, mais on peut l’accélérer avec une méthode.
 ```java
 class Voiture {
 private int vitesse;
@@ -78,7 +78,7 @@ private int vitesse;
 ### Modularité
 👉 Diviser un programme en plusieurs modules réutilisables.
 
-**Exemple :**
+💡 **Exemple :**
 ```java
 class Moteur {
     void demarrer() {
@@ -103,7 +103,7 @@ class Voiture {
 ### Héritage
 👉 Permet de réutiliser et d'étendre le code d'une classe existante.
 
-**Exemple :**
+💡 **Exemple :**
 ```java
 class Animal {
     void manger() {
@@ -212,7 +212,7 @@ public class Main {
 ### Association
 👉 Une classe est liée à une autre sans dépendance forte.
 
-**Exemple :** Un Professeur peut enseigner plusieurs Matières.
+💡 **Exemple :** Un Professeur peut enseigner plusieurs Matières.
 ```java
 class Professeur {
     String nom;
@@ -267,14 +267,14 @@ class Humain {
 👉 L'association est une relation entre deux classes distinctes qui permet à leurs objets d'interagir.
 C'est la relation la plus basique entre les objets, et elle peut prendre plusieurs formes (unidirectionnelle, bidirectionnelle, etc.).
 
-**Exemple :**
+💡 **Exemple :**
 - Un professeur enseigne une matière.
 - Une voiture a un conducteur.
 - Un client passe une commande.
 
 🔹 **Association Unidirectionnelle :** Une seule classe connaît l'existence de l'autre.
 
-**Exemple :** Un professeur enseigne une matière, mais la matière ne connaît pas son professeur.
+💡 **Exemple :** Un professeur enseigne une matière, mais la matière ne connaît pas son professeur.
 ```java
 class Matiere {
     String nom;
@@ -311,7 +311,7 @@ public class Main {
 
 🔹 **Association Bidirectionnelle :** Les deux classes connaissent l'existence l'une de l'autre.
 
-**Exemple :** Un professeur enseigne une matière, et une matière connaît son professeur.
+💡 **Exemple :** Un professeur enseigne une matière, et une matière connaît son professeur.
 ```java
 class Professeur {
     String nom;

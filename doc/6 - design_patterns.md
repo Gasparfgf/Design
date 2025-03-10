@@ -6,7 +6,7 @@
 - Flexible → Adaptable selon les besoins du projet.
 - Éprouvé → Basé sur les bonnes pratiques et l’expérience.
 
-💡 Exemple : Le Singleton (un seul objet dans tout le programme).
+💡 **Exemple :** Le Singleton (un seul objet dans tout le programme).
 ```java
 public class Singleton {
     private static Singleton instance;

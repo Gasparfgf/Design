@@ -1,4 +1,4 @@
-package org.example.SOLID.ocp;
+package org.example.solid.ocp;
 
 /**
  * Actuellement, on a une classe DiscountCalculator qui applique des réductions en fonction du type de client.

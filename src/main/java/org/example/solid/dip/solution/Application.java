@@ -1,4 +1,4 @@
-package org.example.SOLID.dip.solution;
+package org.example.solid.dip.solution;
 
 public class Application {
     private final DataBase dataBase;

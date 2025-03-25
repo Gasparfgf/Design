@@ -1,4 +1,4 @@
-package org.example.SOLID.isp.solution;
+package org.example.solid.isp.solution;
 
 public class Main {
     public static void main(String[] args) {

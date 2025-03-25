@@ -1,4 +1,4 @@
-package org.example.SOLID.srp;
+package org.example.solid.srp;
 
 /**
  * Tu as la classe suivante qui gère à la fois les informations d'un employé et son calcul de salaire.

@@ -1,4 +1,4 @@
-package org.example.SOLID.isp;
+package org.example.solid.isp;
 
 /**
  * L'interface Worker oblige tous les travailleurs à implémenter work() et eat(), mais certains travailleurs (comme les robots) ne mangent pas.

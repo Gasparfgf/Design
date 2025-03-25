@@ -1,6 +1,4 @@
-package org.example.SOLID.isp;
-
-import org.example.SOLID.isp.Worker;
+package org.example.solid.isp;
 
 class RobotWorker implements Worker {
     public void work() {

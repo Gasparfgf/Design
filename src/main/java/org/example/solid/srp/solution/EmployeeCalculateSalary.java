@@ -1,4 +1,4 @@
-package org.example.SOLID.srp.solution;
+package org.example.solid.srp.solution;
 
 public class EmployeeCalculateSalary {
     private double salary;

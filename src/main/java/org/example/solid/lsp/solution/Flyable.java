@@ -1,4 +1,4 @@
-package org.example.SOLID.lsp.solution;
+package org.example.solid.lsp.solution;
 
 public interface Flyable {
     void fly();

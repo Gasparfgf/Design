@@ -1,4 +1,4 @@
-package org.example.SOLID.ocp.solution;
+package org.example.solid.ocp.solution;
 
 public class DiscountApplication {
     private final Discount discount;

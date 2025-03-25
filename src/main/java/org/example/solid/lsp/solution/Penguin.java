@@ -1,4 +1,4 @@
-package org.example.SOLID.lsp.solution;
+package org.example.solid.lsp.solution;
 
 public class Penguin extends Animal {
     private String name;

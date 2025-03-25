@@ -1,4 +1,4 @@
-package org.example.SOLID.dip;
+package org.example.solid.dip;
 
 /**
  * Le code ci-dessous dépend directement d’une base de données MySQL.

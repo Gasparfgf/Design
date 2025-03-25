@@ -1,4 +1,5 @@
 package org.example.dry.exo3.solution;
 
-public class Discount {
+public interface Discount {
+    double calculateDiscount(double price);
 }

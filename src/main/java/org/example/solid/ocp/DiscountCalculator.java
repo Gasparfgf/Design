@@ -3,7 +3,6 @@ package org.example.solid.ocp;
 /**
  * Actuellement, on a une classe DiscountCalculator qui applique des réductions en fonction du type de client.
  * Modifie-la pour qu'on puisse ajouter de nouveaux types de réductions sans modifier le code existant.
- *
  * ✅ Objectif : Applique OCP en utilisant l'héritage ou les interfaces.
  * */
 class DiscountCalculator {

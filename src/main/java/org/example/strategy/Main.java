@@ -6,6 +6,10 @@
 
 package org.example.strategy;
 
+import org.example.strategy.solution.solution.CreditCardPayment;
+import org.example.strategy.solution.solution.PayPalPayment;
+import org.example.strategy.solution.solution.ShoppingCart;
+
 public class Main {
     public static void main(String[] args) {
         ShoppingCart cart = new ShoppingCart();

@@ -6,9 +6,10 @@
 
 package org.example.strategy;
 
-import org.example.strategy.solution.solution.CreditCardPayment;
-import org.example.strategy.solution.solution.PayPalPayment;
-import org.example.strategy.solution.solution.ShoppingCart;
+import org.example.strategy.solution.CreditCardPayment;
+import org.example.strategy.solution.CryptoPayment;
+import org.example.strategy.solution.PayPalPayment;
+import org.example.strategy.solution.ShoppingCart;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,5 +20,8 @@ public class Main {
 
         cart.setPaymentStrategy(new PayPalPayment("user@example.com"));
         cart.checkout(50.0);
+
+        cart.setPaymentStrategy(new CryptoPayment("0xabc123xyz"));
+        cart.checkout(200.0);
     }
 }

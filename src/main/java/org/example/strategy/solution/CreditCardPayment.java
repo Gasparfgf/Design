@@ -1,6 +1,4 @@
-package org.example.strategy.solution.solution;
-
-import org.example.strategy.solution.Strategy;
+package org.example.strategy.solution;
 
 public class CreditCardPayment implements Strategy {
     private final String creditCardNumber;

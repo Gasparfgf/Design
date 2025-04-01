@@ -1,4 +1,4 @@
-package org.example.strategy.solution.solution;
+package org.example.strategy.solution;
 
 import org.example.strategy.solution.Strategy;
 
